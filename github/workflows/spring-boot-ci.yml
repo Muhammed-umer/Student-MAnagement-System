@@ -17,7 +17,7 @@ on:
         user: actions/setup-java@v3
           with:
           Java-version:'17'
-          distribution:'termurin'
+          distribution:'temurin'
 
         - name: Build project with Maven
           user: mvn clean install
